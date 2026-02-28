@@ -16,14 +16,6 @@ body {
   text-align: center;
 }
 
-#image-wrapper img {
-  max-width: 200px;
-  height: auto;
-  margin: 20px 0;
-  border: 2px solid #eee;
-  border-radius: 10px;
-}
-
 .options-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

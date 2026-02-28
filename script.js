@@ -33,9 +33,6 @@ function showQuestion() {
   document.getElementById("message").innerText = "";
 
   document.getElementById("question-text").innerText = data.question;
-  const imgElement = document.getElementById("kanji-img");
-  imgElement.src = data.hasImg ? data.imgUrl : "";
-  imgElement.style.display = data.hasImg ? "inline-block" : "none";
 
   const choices = [
     { text: data.correctAnswer, correct: true },
