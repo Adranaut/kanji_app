@@ -1,4 +1,5 @@
 const API_URL = "https://kanji-api-sepia.vercel.app/kanji/random";
+
 let questionsList = [];
 let currentIndex = 0;
 let score = 0;

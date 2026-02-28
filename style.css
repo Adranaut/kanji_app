@@ -6,6 +6,10 @@ body {
   padding-top: 50px;
 }
 
+.question-text {
+  font-size: 64px;
+}
+
 .quiz-container {
   background: white;
   width: 90%;
