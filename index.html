@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanji Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Kanji Quiz 🇯🇵</h1>
+      <div id="quiz-info" class="hidden">
+        Soal <span id="current-num">1</span> / <span id="total-num">0</span>
+      </div>
+
+      <div id="loader">Memuat 10 soal...</div>
+
+      <div id="quiz-content" class="hidden">
+        <h2 id="question-text"></h2>
+        <div id="image-wrapper"><img id="kanji-img" src="" /></div>
+        <div id="options-container" class="options-grid"></div>
+        <p id="message"></p>
+        <button id="next-btn" class="hidden" onclick="showNextQuestion()">
+          Soal Berikutnya
+        </button>
+      </div>
+
+      <div id="result-screen" class="hidden">
+        <h2>Kuis Selesai!</h2>
+        <p>
+          Skor Kamu: <span id="final-score">0</span> /
+          <span id="final-total">0</span>
+        </p>
+        <button onclick="location.reload()">Main Lagi</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
